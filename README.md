@@ -1,31 +1,18 @@
-# TechHub Electronics — Class Assignment
+# TechHub Electronics Class Website
 
-Static interactive company website with the original TechHub logo. Open index.html in a modern browser; no install or build is required.
+Upload this folder’s contents to the repository root, then choose Settings → Pages → Deploy from a branch → main → / (root). No installation or build required. Preserve any existing CNAME file if your repository has a custom domain.
 
-## GitHub Pages
-Upload the contents of this folder to the repository root. In Settings → Pages, choose Deploy from a branch, main, and / (root), then Save. Keep assets beside index.html. Official instructions: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+## Interactive assignment features
+- Seven category cards preserve the original layout, colors, Arial, original logo and current photos.
+- Shop & Compare Devices opens two fictional TechHub models per category with individual prices and specifications. Select both to compare side by side and add devices to the bag.
+- Secure Checkout Demo includes customer details, fulfillment, conditional delivery address, test payment methods, order totals, student savings and an order confirmation. Order references work in Order Tracking during the current session.
+- Student verification collects a school, .edu email and enrollment declaration, followed by a six-digit demo code (430202). Successful completion applies 10% off the bag and checkout.
+- Support scheduling offers two-hour arrival windows and prevents duplicate session bookings. Customer Support provides an on-site message form; Chat With Support provides automated responses.
 
-## Demonstration flows
-- Filter seven categories; compare two or three categories with photos, brands and price ranges.
-- Save categories to your bag, remove items, clear the bag and submit an item request. The confirmation reference works in Order Tracking.
-- Customer Support opens an on-site email form addressed to support@techhubelectronics.com. Required fields and email syntax are validated; submission displays a confirmation without opening an external app.
-- Book a support service by date and two-hour arrival window: 10 AM–noon, noon–2 PM, 2–4 PM, or 4–6 PM. Past windows and previously booked windows are unavailable. Confirmations include booking references.
-- Student eligibility demonstrates .edu email checking.
-- Order Tracking accepts references generated in this session; TH-DEMO shows a sample ready-for-pickup order.
-
-All interactions are fictional demonstrations for the assignment. Messages are not sent, payments are not collected, and appointments are not externally booked. Requests, bookings and bag contents live only in the current page session and reset on reload. Student email checking is a demonstration, not identity verification.
-
-## Updates
-Gaming PC, USB flash drive and TV photos replaced. Mobile Accessories includes Screen Protectors. USB Flash Drives pricing is $9–$49. The original logo remains active.
+## Demonstration scope
+Checkout is a simulation, not an actual secure payment processor. No card details are requested, no charge occurs and no information is sent to a payment service. Student verification is also simulated: no email is sent and enrollment is not independently verified. TechHub device models, specifications and prices are fictional assignment data; brand lists and category stock photos are separate from those fictional models. All state resets on reload. Production operation would require hosted payment processing, shared order and booking records, and a real student-verification provider.
 
 ## Validation
-JavaScript syntax passed. Local flow checks covered support confirmation, booking windows and duplicate prevention, student eligibility, item requests and tracking. All category images decoded and local asset references checked. Browser visual testing was blocked by the browser URL policy, so native form validation and responsive rendering should be visually checked in your browser.
+JavaScript syntax and local flow checks passed for device comparison, bag, verification errors and success, 10% discount calculations, checkout, tracking and empty-bag handling. Photos and local asset references checked. Visual browser testing remains outstanding because the local file URL was blocked by browser policy.
 
-Photo source URLs and licensing are in IMAGE-CREDITS.md. Google Fonts are optional; fallback fonts are included.
-
-## Latest updates
-New laptop category photo. Hero artwork reads Tech For Life. Footer reads ISM4302 - Inform Tech Planning. Chat With Support opens an on-site virtual assistant with keyword-based replies about shopping, pricing, booking, discounts and tracking. Chat history lasts for the page session; no messages are transmitted to a server or live agent.
-
-Latest revision: open laptop photograph, Arial throughout the page, footer FSCJ Fall 2026 ISM4302 - Inform Tech Planning.
-
-Styling correction: removed a malformed font-import fragment that prevented the original navy/lime color variables from loading. Original layout and colors restored while retaining Arial and all content/feature updates.
+Photo credits appear in IMAGE-CREDITS.md.
